@@ -34,12 +34,12 @@ namespace HelloWorld
                 if (computer_guess < 50 && players_number == 1)
                 {
                     Console.WriteLine("Player WINS!!!");
-                    give_Advice(name, age);
+                 
                 }
                 else if (computer_guess >= 50 && players_number == 100)
                 {
                     Console.WriteLine("Player WINS!!!");
-                    give_Advice(name, age);
+                   
                 }
                 else
                 {
@@ -52,7 +52,6 @@ namespace HelloWorld
 
         static void give_Advice(string name, int age)
         {
-                       
             Console.WriteLine("As to your Prize - Honestly, {0}, at the Sweet Age of {1}, you should know better than to believe vague promises...", name, age.ToString());
         }
 
